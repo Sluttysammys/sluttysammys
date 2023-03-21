@@ -329,6 +329,88 @@ header #logo{
   height:auto; 
   max-width:60px;
 }
+
+.leftImageTop{
+  position: absolute;
+  width:90%; 
+  height:auto; 
+  max-width:300px;
+  top: 100px;
+  left: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index:-1;
+  transform: rotate(-20deg)
+}
+
+.leftImageTopResponsive {
+  height:auto;
+  width:90%;
+  max-width:300px
+}
+
+.leftImageBottom{
+  position: absolute;
+  width:90%; 
+  height:auto; 
+  max-width:300px;
+  bottom: 60px;
+  left: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index:-2;
+  transform: rotate(-10deg)
+}
+
+.leftImageBottomResponsive {
+  height:auto;
+  width:90%;
+  max-width:300px;
+}
+
+.rightImageBottom{
+  position: absolute;
+  width:90%; 
+  height:auto; 
+  max-width:300px;
+  bottom: 90px;
+  right: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index:-1;
+  transform: rotate(10deg)
+}
+
+.rightImageBottomResponsive {
+  height:auto;
+  width:90%;
+  max-width:300px
+}
+
+.bagelImage{
+  position: absolute;
+  width:90%; 
+  height:auto; 
+  max-width:80px;
+  top: 90px;
+  left: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index:1;
+  transform: rotate(60deg)
+}
+
+.bagelImageResponsive {
+  height:auto;
+  width:90%;
+  max-width:80px
+}
+
+
   /* #logo{ 
     position:fixed; 
     top:50px; 
