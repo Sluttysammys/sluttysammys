@@ -432,7 +432,7 @@ body.about, .thankyou, .contact, .merch {
   background-position: center;
   background-repeat: no-repeat;
 }
-body.menu, .events, .partners {
+body.menu, .events {
   background-image: url('img/yellowslime.png');
   background-size: contain;
   background-repeat: no-repeat;
