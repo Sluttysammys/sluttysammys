@@ -339,6 +339,9 @@ header #logo {
 p {
   opacity: 1.0;
 }
+h1 {
+  opacity: 1.0;
+}
 
 .leftImageTop {
   position: absolute;
